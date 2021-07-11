@@ -13,7 +13,16 @@ declare module 'vue' {
     CarbonPedestrian: typeof import('virtual:vite-icons/carbon/pedestrian')['default']
     CarbonSun: typeof import('virtual:vite-icons/carbon/sun')['default']
     CarbonWarning: typeof import('virtual:vite-icons/carbon/warning')['default']
+    Card: typeof import('./src/components/Card.vue')['default']
+    FeatherShoppingCart: typeof import('virtual:vite-icons/feather/shopping-cart')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    'Mdi:bookOpenOutline': typeof import('virtual:vite-icons/mdi/book-open-outline')['default']
+    'Mdi:cart': typeof import('virtual:vite-icons/mdi/cart')['default']
+    'Mdi:comment': typeof import('virtual:vite-icons/mdi/comment')['default']
+    'Mdi:instagram': typeof import('virtual:vite-icons/mdi/instagram')['default']
+    'Mdi:plus': typeof import('virtual:vite-icons/mdi/plus')['default']
+    'Mdi:whatsapp': typeof import('virtual:vite-icons/mdi/whatsapp')['default']
+    MdiShopping: typeof import('virtual:vite-icons/mdi/shopping')['default']
     README: typeof import('./src/components/README.md')['default']
   }
 }

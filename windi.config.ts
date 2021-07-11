@@ -38,4 +38,7 @@ export default defineConfig({
       },
     },
   },
+  shortcuts: {
+    btn: 'flex flex-row px-4 py-2 items-center justify-center border rounded',
+  },
 })
