@@ -14,8 +14,8 @@ const { t } = useI18n()
           <nav class="w-full mt-6">
             <ul class="p-0">
               <li class="my-4">
-                <a href="/" class="btn w-full">
-                  <mdi:home /> <span class="ml-2" v-text="t('home')" />
+                <a href="/#menu" class="btn w-full">
+                  <mdi:book-open-outline /> <span class="ml-2" v-text="t('menu')" />
                 </a>
               </li>
               <li class="my-4">
@@ -26,6 +26,25 @@ const { t } = useI18n()
                 >
                   <mdi:whatsapp />
                   <span class="ml-2" v-text="t('contact_us')" />
+                </a>
+              </li>
+              <li class="my-4">
+                <a
+                  href="https://www.instagram.com/eatkalani/"
+                  target="_blank"
+                  class="btn w-full"
+                >
+                  <mdi:instagram />
+                  <span class="ml-2" v-text="'Instagram'" />
+                </a>
+              </li>
+              <li class="my-4">
+                <a
+                  href="/testimonial"
+                  class="btn w-full"
+                >
+                  <mdi:comment />
+                  <span class="ml-2" v-text="t('testimonial')" />
                 </a>
               </li>
             </ul>
