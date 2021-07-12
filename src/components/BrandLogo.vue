@@ -1,3 +1,16 @@
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  props: {
+    size: {
+      type: String,
+      default: '1em',
+    },
+  },
+})
+</script>
+
 <template>
   <svg
     :width="size"
@@ -21,16 +34,3 @@
     <path d="M247 79C247 78.5 247.7 78 248.5 78C249.3 78 250 78.5 250 79C250 79.6 249.3 80 248.5 80C247.7 80 247 79.6 247 79Z" fill="#FFFFFE" />
   </svg>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  props: {
-    size: {
-      type: String,
-      default: '1em',
-    },
-  },
-})
-</script>
