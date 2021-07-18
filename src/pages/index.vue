@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import MenuList from '~/data/menu.json'
+import ProductList from '~/data/products.json'
 
 const { t } = useI18n()
-const menu = MenuList
+const products = ProductList
 </script>
 
 <template>
@@ -13,7 +13,7 @@ const menu = MenuList
 
   <div>
     <Card
-      v-for="(item, index) in menu"
+      v-for="(item, index) in products"
       :key="index"
       v-bind="item"
       class="mb-4"

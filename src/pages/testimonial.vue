@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import TestimonialList from '~/data/testimonial.json'
 
 const { t } = useI18n()
-const testimonialList = TestimonialList
 </script>
 
 <template>
@@ -12,8 +10,9 @@ const testimonialList = TestimonialList
   </h1>
 
   <div>
-    <div v-for="(item, index) in testimonialList" :key="index" class="mt-4 first:mt-0">
-      <img :src="item.path" :alt="item.label">
-    </div>
+    <img src="/images/testimonial/testimonial-001.jpeg" alt="Testimonial 1">
+    <img src="/images/testimonial/testimonial-002.jpeg" alt="Testimonial 2">
+    <img src="/images/testimonial/testimonial-003.jpeg" alt="Testimonial 3">
+    <img src="/images/testimonial/testimonial-004.jpeg" alt="Testimonial 4">
   </div>
 </template>
