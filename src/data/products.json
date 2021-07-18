@@ -3,18 +3,27 @@
     "name": "Rendang",
     "description": "Rendang ini jadi menu pertama dari Kalani, bukan yang paling enak karena semua menu Kalani pastinya enak semua dong 😋",
     "price": "Rp 65.000 / 250gr",
-    "cover": "/images/kalani-rendang.jpeg"
+    "cover": "/images/products/rendang-kalani.jpeg",
+    "links": {
+      "tokopedia": "https://www.tokopedia.com/eatkalani/rendang-kalani"
+    }
   },
   {
-    "name": "Ayam Lombok Ijo",
+    "name": "Ayam Suwir Cabe Ijo",
     "description": "Kalo rendang Kalani punya karakter yang sama sekali nggak pedes, nah kalo ayam suwir cabe ijo ini ada pedes-pedes level cemennya guys, yaaa pedes-pedes cantik gitu lah.. yahhh namanya juga ada cabenya, pasti ada pedesnya dong. Menu ini bisa kamu jadikan lauk untuk porsi 3-4 orang yah, jadi hemat banget kan!",
     "price": "Rp 20.000 / 250gr",
-    "cover": "/images/kalani-ayam-lombok-ijo.jpeg"
+    "cover": "/images/products/ayam-suwir-cabe-ijo-kalani.jpeg",
+    "links": {
+      "tokopedia": "https://www.tokopedia.com/eatkalani/ayam-suwir-cabe-ijo-kalani"
+    }
   },
   {
     "name": "Kopi Susu",
     "description": "Kopinya terasa, creamy susunya terasa, pahit manisnya menyatu sempurna seperti cintamu dengan dia (hazeeek), pokoknya nggak ada alasan untuk nggak kamu coba!",
     "price": "Rp 14.000 / 250ml",
-    "cover": "/images/kalani-kopi-susu.jpeg"
+    "cover": "/images/products/kopi-susu-kalani.jpeg",
+    "links": {
+      "tokopedia": "https://www.tokopedia.com/eatkalani/kopi-susu-kalani"
+    }
   }
 ]

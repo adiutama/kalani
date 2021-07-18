@@ -22,13 +22,26 @@ const products = ProductList
         <a
           :href="`https://wa.me/6281259538840?text=Hai+Kalani.+Mau+pesan+${ item.name.replace(' ', '+') }.`"
           target="_blank"
-          class="btn"
+          class="btn w-full mr-1"
         >
-          <mdi:whatsapp />
+          <img src="/images/brand/whatsapp.png" class="h-4" />
           <span
             class="ml-2"
-            v-text="t('order')"
-          />
+          >
+            Whatsapp
+          </span>
+        </a>
+        <a
+          :href="item.links.tokopedia"
+          target="_blank"
+          class="btn w-full ml-1"
+        >
+          <img src="/images/brand/tokopedia.png" class="h-4" />
+          <span
+            class="ml-2"
+          >
+            Tokopedia
+          </span>
         </a>
       </template>
     </Card>

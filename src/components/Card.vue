@@ -23,7 +23,7 @@ const description = props.description
 
       <p class="mt-2 mb-4" v-text="description" />
 
-      <div class="flex flex-row-reverse">
+      <div class="flex flex-row justify-end">
         <slot name="actions" />
       </div>
     </div>

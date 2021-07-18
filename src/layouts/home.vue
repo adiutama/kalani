@@ -2,19 +2,24 @@
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
+const showProducts = () => {
+  const elmt = document.getElementById('menu')
+
+  elmt?.scrollIntoView({ behavior: 'smooth' })
+}
 </script>
 
 <template>
   <main class="flex justify-center">
     <div class="w-full lg:w-md">
       <section class="h-full p-6">
-        <header class="flex flex-col w-full items-center">
+        <header class="flex flex-col w-full h-screen items-center justify-center">
           <BrandLogo size="120px" />
 
           <nav class="w-full mt-6">
             <ul class="p-0">
               <li class="my-4">
-                <a href="/#menu" class="btn w-full">
+                <a href="/#menu" class="btn w-full" @click.prevent="showProducts">
                   <mdi:book-open-outline /> <span class="ml-2" v-text="t('menu')" />
                 </a>
               </li>
